@@ -95,7 +95,7 @@ export default function UploadForm() {
             type="file"
             className="hidden"
             multiple
-            accept="image/*"
+            accept="image/*,video/*,.mov,.mp4,.avi,.mkv,.wmv,.flv,.webm"
             onChange={handleFileChange}
             ref={fileInputRef}
           />
