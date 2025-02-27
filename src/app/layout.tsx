@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: "Sobe aí",
     images: [
       {
-        url: "https://sobe-ai.pedrovs.dev/preview.webp",
+        url: "https://sobe-ai.pedrovs.dev/images/preview.webp",
         width: 1200,
         height: 630,
         alt: "Sobe aí - Upload Temporário de Arquivos",
@@ -49,12 +49,12 @@ export const metadata: Metadata = {
     title: "Sobe aí - Upload Temporário de Arquivos",
     description:
       "Envie imagens e vídeos sem compressão e gere um link temporário para compartilhamento.",
-    images: ["https://sobe-ai.pedrovs.dev/preview.webp"],
+    images: ["https://sobe-ai.pedrovs.dev/images/preview.webp"],
     creator: "@pedrow023",
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/images/icon.svg",
+    shortcut: "/images/icon.svg",
     apple: "/apple-touch-icon.png",
   },
 };
@@ -70,6 +70,7 @@ export default function RootLayout({
         className={`${sora.variable} ${inter.variable} subpixel-antialiased dark`}
       >
         {children}
+        
       </body>
     </html>
   );
