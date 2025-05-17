@@ -1,37 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 sobe-ai.web
 
-## Getting Started
+**sobe-ai.web** é a interface web para a API [sobe-ai.api](https://github.com/pedrovs3/sobe-ai.api), que permite o upload temporário de imagens e vídeos **sem compressão ou perda de qualidade**, gerando um link temporário e seguro para compartilhamento.
 
-First, run the development server:
+---
+
+## ✨ Destaques
+
+* 🖼 Upload de imagens e vídeos (PNG, JPG, GIF)
+* 🧼 Sem compressão ou perda de qualidade
+* ⏳ Geração de link temporário que expira em 2 horas
+* 💡 Interface limpa, intuitiva e responsiva
+* 🔒 Não requer login, rastreamento ou cookies
+
+---
+
+## 🚀 Acesse Agora
+
+🔗 [https://sobe-ai.pedrovs.dev](https://sobe-ai.pedrovs.dev)
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+* **React**
+* **TypeScript**
+* **Vite**
+* **TailwindCSS**
+* **Axios**
+
+---
+
+## 📦 Instalação e Execução Local
+
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/pedrovs3/sobe-ai.web.git
+cd sobe-ai.web
+```
+
+### 2. Instalar dependências
+
+```bash
+npm install
+# ou
+yarn
+```
+
+### 3. Rodar localmente
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar a aplicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Configuração
 
-## Learn More
+Você pode configurar a URL da API criando um arquivo `.env`:
 
-To learn more about Next.js, take a look at the following resources:
+```
+NEXT_PUBLIC_BASE_URL=
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📷 Preview
 
-## Deploy on Vercel
+![image](https://github.com/user-attachments/assets/b986c532-4529-4c8e-8de4-8a9e140f0830)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# sobe-ai.web" 
+## 🤝 Contribuindo
+
+Contribuições são muito bem-vindas!
+Abra uma issue ou envie um pull request com sugestões de melhoria.
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença MIT.
+Desenvolvido por [Pedro Vieira](https://github.com/pedrovs3)
+
+---
+
+🔗 Veja também: [sobe-ai.api](https://github.com/pedrovs3/sobe-ai.api)
