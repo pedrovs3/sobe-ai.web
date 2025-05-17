@@ -67,10 +67,36 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${sora.variable} ${inter.variable} subpixel-antialiased dark`}
+        className={`${sora.variable} ${inter.variable} subpixel-antialiased dark flex min-h-screen flex-col`}
       >
         {children}
-        
+
+        <footer>
+          <div className="flex flex-col items-center justify-center gap-2 p-4 text-sm text-gray-500 dark:text-gray-400">
+            <span>
+              Criado por{" "}
+              <a
+                href="https://pedrovs.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                Pedro Vieira
+              </a>
+            </span>
+            <span>
+              Código fonte disponível no{" "}
+              <a
+                href="https://github.com/pedrovs3/sobe-ai.web"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                GitHub
+              </a>
+            </span>
+          </div>
+        </footer>
       </body>
     </html>
   );

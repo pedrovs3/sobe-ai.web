@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8 lg:p-24 gap-8">
+    <main className="flex flex-1 flex-col items-center justify-center p-8 lg:p-24 gap-8">
       <div className="flex flex-col gap-3 items-center">
         <Image
           src="/images/icon.svg"
